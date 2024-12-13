@@ -1,4 +1,4 @@
-import { ImageMain, LogoMain, PlateOne, PlateThree, PlateTwo } from '../../assets/index.tsx'
+import { ImageMain, LogoMain, PlateEight, PlateFive, PlateFour, PlateOne, PlateSeven, PlateSix, PlateThree, PlateTwo } from '../../assets/index.tsx'
 import Header from '../../components/macro/Header.tsx'
 import ButtonMain from '../../components/micro/ButtonMain.tsx'
 
@@ -7,7 +7,7 @@ const Home = () => {
     <div className='h-screen' >
         <div className='h-screen'>
             <Header hgt='100%'/>
-            <div style={{backgroundImage: `url(${ImageMain})`}} className='h-[86%] object-center bg-no-repeat bg-cover'>
+            <div style={{backgroundImage: `url(${ImageMain})`}} className='h-[89%] object-center bg-no-repeat bg-cover'>
                 <div className='h-full bg-[rgba(0,0,0,0.5)]'>
                     <div className='flex h-full justify-center items-center'>
                         <div style={{backgroundImage:`url(${LogoMain})`}} className='h-[450px] w-[450px] bg-no-repeat flex items-end justify-center gap-10'>
@@ -48,6 +48,13 @@ const Home = () => {
                 </div>
             </div>
             
+        </div>
+        <div className='h-screen justify-center gap-4 flex flex-wrap'>
+            <img src={PlateFour} alt="" />
+            <img src={PlateFive} alt="" />
+            <img src={PlateSix} alt="" />
+            <img src={PlateSeven} alt="" />
+            <img src={PlateEight} alt="" />
         </div>
     </div>
   )
