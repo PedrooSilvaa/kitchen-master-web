@@ -1,3 +1,6 @@
 export {default as Logo} from './Image/logo.svg'
 export {default as LogoMain} from './Image/logo-main.svg'
 export {default as ImageMain} from './Image/image-main.svg'
+export {default as PlateOne} from './Image/plate-main-1.svg'
+export {default as PlateThree} from './Image/plate-main-2.svg'
+export {default as PlateTwo} from './Image/plate-main-3.svg'

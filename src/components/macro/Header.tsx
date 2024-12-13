@@ -7,7 +7,7 @@ interface HeaderProps{
 
 const Header = ( {hgt} : HeaderProps) => {
   return (
-    <div className={`flex justify-between items-center h-${hgt}`}>
+    <div className={`flex justify-between items-center h-${hgt} px-16`}>
         <img src={Logo} alt="" />
 
         <div className='flex gap-14 text-lg font-semibold text-black'>
